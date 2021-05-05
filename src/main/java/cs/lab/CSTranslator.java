@@ -6,7 +6,7 @@ public class CSTranslator {
 
     static final Logger logger = Logger.getLogger(CSTranslator.class.getName());    
 
-    public void translate(String toBeTranslated) {
+    public void translate() {
         logger.info("Traductor CS!");
     }
 
