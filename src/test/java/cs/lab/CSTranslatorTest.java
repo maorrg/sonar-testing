@@ -21,4 +21,11 @@ class CSTranslatorTest {
         String response = csTranslator.translateXYZ();
         Assert.assertEquals(response, "Door");
     }
+
+    @Test
+    public void testCase1(){
+        CSTranslator csTranslator = new CSTranslator();
+        String response = csTranslator.translate();
+        Assert.assertEquals(response, "Door");
+    }
 };
